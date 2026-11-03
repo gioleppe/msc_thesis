@@ -6,12 +6,12 @@ official university template: check your degree programme's requirements.
 
 ## Getting started
 
-Edit the thesis details at the top of `main.tex`, then replace the text in
-`abstract.tex` and the chapter files. Add references to `references.bib` and
+Edit the thesis details at the top of `main.tex`, then write the abstract and
+chapters using the guidance comments in their files. Add references to `references.bib` and
 cite them with `\cite{key}`. You can export BibTeX entries from a reference
-manager and paste them into that file. The example citation and bibliography
-entry demonstrate the workflow: replace them once you have a citation of your
-own. BibTeX needs at least one citation to run successfully.
+manager and paste them into that file. Replace the example citation and
+bibliography entry with sources relevant to your thesis. BibTeX needs at least
+one citation to run successfully.
 
 To add a chapter, create a `.tex` file containing `\chapter{Your title}` and
 add `\input{your-file}` in `main.tex` where the chapter should appear. Add

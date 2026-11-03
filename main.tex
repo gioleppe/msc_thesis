@@ -1,0 +1,47 @@
+% !TeX program = pdflatex
+\documentclass[12pt,a4paper,oneside,openright]{book}
+
+\usepackage[left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{hyperref}
+
+\doublespacing
+\hypersetup{hidelinks}
+
+% Replace these placeholders with your thesis details.
+\newcommand{\thesistitle}{Thesis Title}
+\newcommand{\thesisauthor}{Author Name}
+\newcommand{\thesisdegree}{Master's Degree Programme}
+\newcommand{\thesisdepartment}{Department}
+\newcommand{\thesissupervisor}{Supervisor Name}
+\newcommand{\thesisyear}{Academic Year}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+\input{titlepage}
+\hypersetup{pageanchor=true}
+
+\frontmatter
+\input{abstract}
+\tableofcontents
+\listoffigures
+
+\mainmatter
+\input{introduction}
+\input{background}
+\input{methodology}
+\input{results}
+\input{conclusion}
+
+\backmatter
+\bibliographystyle{ieeetr}
+\bibliography{references}
+\end{document}
